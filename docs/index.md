@@ -5,6 +5,7 @@ Esercizi e materiale per un corso introduttivo all'informatica per una laurea ma
 
 ## Database
 
+
 |Argomento                  | Slide            | Dataset |
 |---------------------------|------------------|---------|
 |Organizzazione dati grezzi: file system, file con delimitatori|||
@@ -15,6 +16,7 @@ Esercizi e materiale per un corso introduttivo all'informatica per una laurea ma
 |Operatori aggregati (count, max, min, sum)|||
 |Interrogazioni su più tabelle.|||
 |Interrogazioni complesse    |||
+
 
 ## Python
 

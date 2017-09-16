@@ -1,4 +1,7 @@
-# Foundations of Computer Science
+---
+layout: page
+title: Foundations of Computer Science
+---
 
 Esercizi e materiale per un corso introduttivo all'informatica per una laurea magistrale in Data Science
 

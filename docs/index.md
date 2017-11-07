@@ -3,40 +3,34 @@ layout: page
 title: Foundations of Computer Science
 ---
 
-Esercizi e materiale per un corso introduttivo all'informatica per una laurea magistrale in Data Science
+# Foundations of Computer Science
 
 
-## Database
+## SQL
 
-
-|Argomento                  | Slide            | Dataset |
-|---------------------------|------------------|---------|
-|Organizzazione dati grezzi: file system, file con delimitatori|||
-|Introduzione ai database. Modelli relazionali. DBMS|||
-|Schema e istanze. Esplorare un DB|||
-|Chiavi e indici|||
-|Il linguaggio SQL: Select ... From … Where su una tabella.|||
-|Operatori aggregati (count, max, min, sum)|||
-|Interrogazioni su più tabelle.|||
-|Interrogazioni complesse    |||
-
+|    |  Date | Topic                           | Material   |  Assignments  | Solutions |
++----+-------+---------------------------------+------------+---------------+-----------+
+| 1  |       |Separator-based files            |            |               |           |
++----+-------+---------------------------------+------------+---------------+-----------+
+| 2  |       |Introduction. Relational model   |[slides](http://elearning.unimib.it/mod/url/view.php?id=187158) | | |
+|    |       |DBMS                             |            |               |           |
++----+-------+---------------------------------+------------+---------------+-----------+
+| 3  |       |Schemas and instances.           |            |               |           |
+|    |       |Exploring a DB.                  |            |               |           |
++----+-------+---------------------------------+------------+---------------+-----------+
+| 4  |       |Constraints, Keys, Indices       |            |               |           |
+|    |       |Null values                      |            |               |           |
++----+-------+---------------------------------+------------+---------------+-----------+
+| 5  |       |Select..From..Where on 1 table   |            |               |           |
++----+-------+---------------------------------+------------+---------------+-----------+
+| 6  |       |Aggregate operators              |            |               |           |
++----+-------+---------------------------------+------------+---------------+-----------+
+| 7  |       |Querying more tables             |            |               |           |
++----+-------+---------------------------------+------------+---------------+-----------+
 
 ## Python
 
-|Argomento                  | Notebook         | Github  | Dataset |
-|---------------------------|------------------|---------|---------|
-|Notebook e riga di comando ||||
-|Array, liste, dizionari||||
-|Cicli||||
-|Organizzazione di un programma: funzioni e librerie||||
-|Pandas||||
-|Numpy||||
-|Test e debugging||||
-|Asserzioni||||
-|Programmi a linea di comando||||
-|Cenni di shell e controllo versione||||
-|Accedere a database da Python||||
 
+# License
 
-# Licenza
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribuzione 4.0 Internazionale</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.

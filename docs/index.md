@@ -20,7 +20,7 @@ title: Foundations of Computer Science
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 6   |       |Aggregate operators                     |            |               |           |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 7   |       |Querying more tables                    |            | [Exercise](sql-03-join-1)  | [Solution](https://github.com/gdv/foundationsCS/blob/master/03-join-1.sql)          |
+| 7   | 8/11  |Querying more tables                    |            | [Exercise](sql-03-join-1)  | [Solution](https://github.com/gdv/foundationsCS/blob/master/03-join-1.sql)          |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 
 ## Python

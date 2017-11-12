@@ -29,30 +29,6 @@ title: Foundations of Computer Science
 |     |  Date | Topic                                  | Material   |  Assignments  | Solutions |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 1   |       |Introduction to the Jupyter Notebook    | [Notebook 1](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html) [Notebook 2](https://github.com/gdv/EngComp/blob/master/modules/1_offtheground/1_Interacting_with_Python.ipynb)           |               |           |
-| --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 2   |       |Array, lists, loops                     | | | |
-| --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 3   |       |Dictionaries, reading files. Anatomy of a program: functions and libraries  |            |               |           |
-| --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 4   |       |Pandas: introduction                    | [Notebook](https://jakevdp.github.io/PythonDataScienceHandbook/03.01-introducing-pandas-objects.html)   |               |           |
-| --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 4   |       |Pandas: indexing                        | [Notebook](http://elearning.unimib.it/mod/url/view.php?id=188292)   | 
-[Exercise](http://elearning.unimib.it/mod/page/view.php?id=186786)  |
-[Solution](http://elearning.unimib.it/mod/resource/view.php?id=188299)|
-| --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 5   |       |Pandas: aggregating data                | 
-[Notebook](http://elearning.unimib.it/mod/url/view.php?id=188294)
-[Notebook Group by](http://elearning.unimib.it/mod/url/view.php?id=188328)|
-[Exercise](http://elearning.unimib.it/mod/page/view.php?id=188293)|
-|
-| --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 6   |       |Pandas: missing data. Hierchical indexing        | 
-[Notebook missing data](http://elearning.unimib.it/mod/url/view.php?id=189465)
-[Notebook Multindex](http://elearning.unimib.it/mod/url/view.php?id=189466)|
-[Exercise](http://elearning.unimib.it/mod/page/view.php?id=189473)|           |
-| --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 7   | 13/11 |Pandas: merging tables                  |            |   |           |
-| --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 
 
 # License

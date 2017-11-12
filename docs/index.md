@@ -36,6 +36,10 @@ title: Foundations of Computer Science
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 4   |       |Pandas: introduction                    | [Notebook](https://jakevdp.github.io/PythonDataScienceHandbook/03.01-introducing-pandas-objects.html)   |               |           |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
+| 4   |       |Pandas: indexing                        | [Notebook](http://elearning.unimib.it/mod/url/view.php?id=188292)   | 
+[Exercise](http://elearning.unimib.it/mod/page/view.php?id=186786)  |
+[Solution](http://elearning.unimib.it/mod/resource/view.php?id=188299)|
+| --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 
 
 # License

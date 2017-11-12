@@ -40,7 +40,7 @@ title: Foundations of Computer Science
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 6   |       |Pandas: aggregating data                | [Notebook](http://elearning.unimib.it/mod/url/view.php?id=188294) [Notebook Group by](http://elearning.unimib.it/mod/url/view.php?id=188328)| [Exercise](http://elearning.unimib.it/mod/page/view.php?id=188293)||
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 7   |       |Pandas: missing data. Hierchical indexing        | [Notebook missing data](http://elearning.unimib.it/mod/url/view.php?id=189465) [Notebook Multindex](http://elearning.unimib.it/mod/url/view.php?id=189466)| [Exercise](http://elearning.unimib.it/mod/page/view.php?id=189473)|           |
+| 7   |       |Pandas: missing data. Hierchical indexing        | [Notebook missing data](http://elearning.unimib.it/mod/url/view.php?id=189465) [Notebook Multindex](http://elearning.unimib.it/mod/url/view.php?id=189466)| [Exercise](py-07-multindex)|           |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 8   | 13/11 |Pandas: merging tables                  |            |   |           |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |

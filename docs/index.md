@@ -29,6 +29,13 @@ title: Foundations of Computer Science
 |     |  Date | Topic                                  | Material   |  Assignments  | Solutions |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 1   |       |Introduction to the Jupyter Notebook    | [Notebook 1](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html) [Notebook 2](https://github.com/gdv/EngComp/blob/master/modules/1_offtheground/1_Interacting_with_Python.ipynb)           |               |           |
+| --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
+| 2   |       |Array, lists, loops                     | | | |
+| --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
+| 3   |       |Dictionaries, reading files. Anatomy of a program: functions and libraries  |            |               |           |
+| --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
+| 4   |       |Pandas: introduction                    | [Notebook](https://jakevdp.github.io/PythonDataScienceHandbook/03.01-introducing-pandas-objects.html)   |               |           |
+| --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 
 
 # License

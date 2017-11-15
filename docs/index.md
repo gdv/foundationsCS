@@ -22,7 +22,7 @@ title: Foundations of Computer Science
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 7   | 8/11  |Querying more tables                    |            | [Exercise](sql-03-join-1)  | [Solution](https://github.com/gdv/foundationsCS/blob/master/sql-03-join-1.sql)          |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 8   | 15/11 |Set operations                          |            | [Exercise](sql-04-join-2)  | [Solution](https://github.com/gdv/foundationsCS/blob/master/sql-04-join-2.sql)          |
+| 8   | 15/11 |Set operations                          |[slides](https://drive.google.com/file/d/1dsyUzA722h-dunnQgmyFA98lQp3gRa3V/view?usp=sharing)  | [Exercise](sql-04-join-2)  | [Solution](https://github.com/gdv/foundationsCS/blob/master/sql-04-join-2.sql)          |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 
 ## Python

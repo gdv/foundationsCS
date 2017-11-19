@@ -12,17 +12,19 @@ title: Foundations of Computer Science
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 2   |       |Introduction. Relational model DBMS     |[slides](http://elearning.unimib.it/mod/url/view.php?id=187158) | | |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 3   |       |Schemas and instances. Exploring a DB.  |            |               |           |
+| 3   |       |Schemas and instances. Exploring a DB.  |[slides](http://elearning.unimib.it/mod/resource/view.php?id=187159)   |  |     |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 4   |       |Constraints, Keys, Indices. Null values |            |               |           |
+| 4   |       |Constraints, Keys, Indices. Null values |[slides](http://elearning.unimib.it/mod/resource/view.php?id=187161) | | |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 5   |       |Select..From..Where on 1 table          |            |               |           |
+| 5   |       |Select..From..Where on 1 table          |[slides](http://elearning.unimib.it/mod/resource/view.php?id=183043) [old slides](http://elearning.unimib.it/mod/resource/view.php?id=187162)            |[SQL 1 table](sql-01-sfw) |[Solution](https://github.com/gdv/foundationsCS/blob/master/sql-01-sfw.sql) |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 6   |       |Aggregate operators                     |            |               |           |
+| 6   |       |Aggregate operators                     |[slides](http://elearning.unimib.it/mod/resource/view.php?id=187166) | | |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 7   | 8/11  |Querying more tables                    |            | [Exercise](sql-03-join-1)  | [Solution](https://github.com/gdv/foundationsCS/blob/master/sql-03-join-1.sql)          |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 8   | 15/11 |Set operations                          |[slides](https://drive.google.com/file/d/1dsyUzA722h-dunnQgmyFA98lQp3gRa3V/view?usp=sharing)  | [Exercise](sql-04-join-2)  | [Solution](https://github.com/gdv/foundationsCS/blob/master/sql-04-join-2.sql)          |
+| --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
+| 9   | 22/11 |Nested queries                          |[slides](https://drive.google.com/file/d/1dsyUzA722h-dunnQgmyFA98lQp3gRa3V/view?usp=sharing) | | |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 
 ## Python

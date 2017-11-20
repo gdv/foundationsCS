@@ -30,13 +30,13 @@ title: Foundations of Computer Science
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 1  | 2/10  |Introduction to the Jupyter Notebook, Array, lists, loops    | [Notebook 1](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html) [Notebook 2](https://github.com/gdv/EngComp/blob/master/modules/1_offtheground/1_Interacting_with_Python.ipynb)           |               |           |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 2  | 9/10  |Dictionaries, reading files. Anatomy of a program: functions and libraries  |            |               |           |
+| 2  | 9/10  |Dictionaries, reading files. Anatomy of a program: functions and libraries. Regular Expressions  | [Regex](https://docs.python.org/3/howto/regex.html)       |               |           |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 3  | 16/10 |Pandas: introduction                    | [Notebook](https://jakevdp.github.io/PythonDataScienceHandbook/03.01-introducing-pandas-objects.html)   |               |           |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 4  | 23/10 |Pandas: indexing                        | [Notebook](http://elearning.unimib.it/mod/url/view.php?id=188292)   |[Exercise](http://elearning.unimib.it/mod/page/view.php?id=186786)  |[Solution](http://elearning.unimib.it/mod/resource/view.php?id=188299)|
+| 4  | 23/10 |Pandas: indexing                        | [Notebook](https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.02-Data-Indexing-and-Selection.ipynb)   |[Exercise](http://elearning.unimib.it/mod/page/view.php?id=186786)  |[Solution](http://elearning.unimib.it/mod/resource/view.php?id=188299)|
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 5  | 30/10      |Pandas: aggregating data                | [Notebook](http://elearning.unimib.it/mod/url/view.php?id=188294) [Notebook Group by](http://elearning.unimib.it/mod/url/view.php?id=188328)| [Exercise](http://elearning.unimib.it/mod/page/view.php?id=188293)||
+| 5  | 30/10      |Pandas: aggregating data                | [Notebook](https://github.com/jakevdp/PythonDataScienceHandbook/blob/f2c4a8af3f6e7e5f455469839e31b09ab6c22868/notebooks/02.04-Computation-on-arrays-aggregates.ipynb) [Docs](http://pandas.pydata.org/pandas-docs/stable/groupby.html)| [Exercise](py-05-groupby)||
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 6  | 6/11  |Pandas: missing data. Hierchical indexing        | [Notebook missing data](https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html) [Notebook Multindex](https://jakevdp.github.io/PythonDataScienceHandbook/03.05-hierarchical-indexing.html)| [Exercise](py-07-multindex)| [Solution](https://github.com/gdv/foundationsCS/blob/master/py-07-multindex.ipynb)          |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |

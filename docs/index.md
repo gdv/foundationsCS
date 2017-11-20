@@ -42,19 +42,19 @@ title: Foundations of Computer Science
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 7  | 13/11 |Pandas: merging tables                  | [Notebook concat](https://jakevdp.github.io/PythonDataScienceHandbook/03.06-concat-and-append.html) [Notebook merge](https://jakevdp.github.io/PythonDataScienceHandbook/03.07-merge-and-join.html)  | [Exercise](py-08-merging)  |           |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 8  |       |Numpy                     | | | |
+| 8  |       |Parsing files                           | [docs](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html)|[Exercise](py-09-Apache) | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 9  |       |Test and debugging                     | | | |
+| 9  |       |Numpy                                   | | | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 10 |       |Assertions                     | | | |
+| 10 |       |Test and debugging                      | | | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 11 |       |Version control                     | | | |
+| 11 |       |Assertions                              | | | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 12 |       |Accessing databases                     | | | |
+| 12 |       |Version control                         | | | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 13 |       |                     | | | |
+| 13 |       |Accessing databases                     | | | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 14 |       |                     | | | |
+| 14 |       |                                        | | | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 
 

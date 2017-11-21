@@ -10,17 +10,17 @@ title: Foundations of Computer Science
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 1   | 5/10  |Separator-based files. Introduction. Relational model DBMS     |[slides](http://elearning.unimib.it/mod/url/view.php?id=187158) | | |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 2   | 11/10 |Schemas and instances. Exploring a DB. Constraints, Keys, Indices. Null values |[slides](http://elearning.unimib.it/mod/resource/view.php?id=187159) [slides](http://elearning.unimib.it/mod/resource/view.php?id=187161)  |  |     |
+| 2   | 11/10 |Schemas and instances. Exploring a DB. Constraints, Keys, Indices. Null values [slides](https://drive.google.com/file/d/1aei9sQry7p9UAoxP1TY9xPkkwocPbvqP/view?usp=sharing) |[slides](http://elearning.unimib.it/mod/resource/view.php?id=187159) [slides](http://elearning.unimib.it/mod/resource/view.php?id=187161) [slides null values](https://drive.google.com/file/d/1oPar1TsmqYps8V5nPZSMo0mca6mt5Dur/view?usp=sharing) |  |     |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 3   | 18/10  |Select..From..Where on 1 table          |[slides](http://elearning.unimib.it/mod/resource/view.php?id=183043) [old slides](http://elearning.unimib.it/mod/resource/view.php?id=187162)            |[SQL 1 table](sql-01-sfw) |[Solution](https://github.com/gdv/foundationsCS/blob/master/sql-01-sfw.sql) |
+| 3   | 18/10  |Select..From..Where on 1 table          |[slides](https://drive.google.com/file/d/13pfyI0h9huoDYHIfBXYjoZje5w2XTNbK/view?usp=sharing) [old slides](http://elearning.unimib.it/mod/resource/view.php?id=187162)            |[SQL 1 table](sql-01-sfw) |[Solution](https://github.com/gdv/foundationsCS/blob/master/sql-01-sfw.sql) |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 4   | 25/10 |Aggregate operators                     |[slides](http://elearning.unimib.it/mod/resource/view.php?id=187166) | | |
+| 4   | 25/10 |Aggregate operators                     |[slides](https://drive.google.com/file/d/1d8KW_tkV93m5oTlqt6lyXQkEC8ecdhnr/view?usp=sharing) | | |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 5   | 8/11  |Querying more tables                    |            | [Exercise](sql-03-join-1)  | [Solution](https://github.com/gdv/foundationsCS/blob/master/sql-03-join-1.sql)          |
+| 5   | 8/11  |Querying more tables                    |[slides](https://drive.google.com/file/d/11F2wuvoRwWnhfG__c3JNT58Snb4h8yb5/view?usp=sharing)         [slides outer join](https://drive.google.com/file/d/1Bl30IdK3i_lKm53bQeM-sha1sjTqK3cg/view?usp=sharing)  | [Exercise](sql-03-join-1)  | [Solution](https://github.com/gdv/foundationsCS/blob/master/sql-03-join-1.sql)          |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 6   | 15/11 |Set operations                          |[slides](https://drive.google.com/file/d/1dsyUzA722h-dunnQgmyFA98lQp3gRa3V/view?usp=sharing)  | [Exercise](sql-04-join-2)  | [Solution](https://github.com/gdv/foundationsCS/blob/master/sql-04-join-2.sql)          |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 7   | 22/11 |Nested queries                          |[slides](https://drive.google.com/file/d/1dsyUzA722h-dunnQgmyFA98lQp3gRa3V/view?usp=sharing) | | |
+| 7   | 29/11 |Nested queries                          |[slides](https://drive.google.com/open?id=1lCArdEEEa6_erOWoR3B0I-Nsyu8Ey0fY/view?usp=sharing) | | |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 
 ## Python
@@ -36,7 +36,7 @@ title: Foundations of Computer Science
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 4  | 23/10 |Pandas: indexing                        | [Notebook](https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.02-Data-Indexing-and-Selection.ipynb)   |[Exercise](http://elearning.unimib.it/mod/page/view.php?id=186786)  |[Solution](http://elearning.unimib.it/mod/resource/view.php?id=188299)|
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 5  | 30/10      |Pandas: aggregating data                | [Notebook](https://github.com/jakevdp/PythonDataScienceHandbook/blob/f2c4a8af3f6e7e5f455469839e31b09ab6c22868/notebooks/02.04-Computation-on-arrays-aggregates.ipynb) [Docs](http://pandas.pydata.org/pandas-docs/stable/groupby.html)| [Exercise](py-05-groupby)||
+| 5  | 30/10 |Pandas: aggregating data                | [Notebook](https://github.com/jakevdp/PythonDataScienceHandbook/blob/f2c4a8af3f6e7e5f455469839e31b09ab6c22868/notebooks/02.04-Computation-on-arrays-aggregates.ipynb) [Docs](http://pandas.pydata.org/pandas-docs/stable/groupby.html)| [Exercise](py-05-groupby)||
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 6  | 6/11  |Pandas: missing data. Hierchical indexing        | [Notebook missing data](https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html) [Notebook Multindex](https://jakevdp.github.io/PythonDataScienceHandbook/03.05-hierarchical-indexing.html)| [Exercise](py-07-multindex)| [Solution](https://github.com/gdv/foundationsCS/blob/master/py-07-multindex.ipynb)          |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
@@ -44,7 +44,7 @@ title: Foundations of Computer Science
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 8  | 20/11 |Parsing files                           | [docs](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html)|[Exercise](py-09-Apache) | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 9  | 29/11 |Numpy                                   | | | |
+| 9  | 22/11 |Parsing files 2                         | | | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 10 |       |Test and debugging                      | | | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |

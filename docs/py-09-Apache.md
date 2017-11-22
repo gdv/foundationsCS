@@ -15,7 +15,7 @@ The entries in *error.log* usually have a corresponding entry in *access.log*
     digit of the status code)
 1.  Cluster the accesses in 5-minutes time slices (e.g. from 14:00 to 14:05, from 14:05 to
     14:10, etc). Count the number of accesses for each time slice
-1.  For `[info]` entry of *error.log*, find the next entry of *access.log*. For
+1.  For each `[info]` entry of *error.log*, find the next entry of *access.log*. For
     example, when considering the entry at `Sun Mar  7 18:00:09 2004`, we want to find the
     entry at `[07/Mar/2004:18:02:10 -0800]`
 1.  Count the number of times that the two accesses of the previous point have the same origin.

@@ -40,7 +40,7 @@ title: Foundations of Computer Science
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 6  | 6/11  |Pandas: missing data. Hierchical indexing        | [Notebook missing data](https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html) [Notebook Multindex](https://jakevdp.github.io/PythonDataScienceHandbook/03.05-hierarchical-indexing.html)| [Exercise](py-07-multindex)| [Solution](https://github.com/gdv/foundationsCS/blob/master/py-07-multindex.ipynb)          |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 7  | 13/11 |Pandas: merging tables                  | [Notebook concat](https://jakevdp.github.io/PythonDataScienceHandbook/03.06-concat-and-append.html) [Notebook merge](https://jakevdp.github.io/PythonDataScienceHandbook/03.07-merge-and-join.html)  | [Exercise](py-08-merging.ipynb)  |           |
+| 7  | 13/11 |Pandas: merging tables                  | [Notebook concat](https://jakevdp.github.io/PythonDataScienceHandbook/03.06-concat-and-append.html) [Notebook merge](https://jakevdp.github.io/PythonDataScienceHandbook/03.07-merge-and-join.html)  | [Exercise](py-08-merging)  | [Exercise](py-08-merging.ipynb)          |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 8  | 20/11 |Parsing files                           | [docs](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html)|[Exercise](py-09-Apache) | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |

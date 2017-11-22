@@ -44,7 +44,7 @@ title: Foundations of Computer Science
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 8  | 20/11 |Parsing files                           | [docs](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html)|[Exercise](py-09-Apache) | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 9  | 22/11 |List comprehensions                     | | |[Solution](https://github.com/gdv/foundationsCS/blob/master/py-09-Apache.ipynb) |
+| 9  | 22/11 |List comprehensions                     | [docs](https://docs.python.org/3/tutorial/datastructures.html) | |[Solution](https://github.com/gdv/foundationsCS/blob/master/py-09-Apache.ipynb) |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 10 |       |Test and debugging                      | | | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |

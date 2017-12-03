@@ -20,7 +20,7 @@ title: Foundations of Computer Science
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 6   | 15/11 |Set operations                          |[slides](https://drive.google.com/file/d/1dsyUzA722h-dunnQgmyFA98lQp3gRa3V/view?usp=sharing)  | [Exercise](sql-04-join-2)  | [Solution](https://github.com/gdv/foundationsCS/blob/master/sql-04-join-2.sql)          |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 7   | 4/12  |Nested queries                          |[slides](https://drive.google.com/open?id=1lCArdEEEa6_erOWoR3B0I-Nsyu8Ey0fY/view?usp=sharing) | | |
+| 7   | 4/12  |Nested queries                          |[slides](https://drive.google.com/open?id=1lCArdEEEa6_erOWoR3B0I-Nsyu8Ey0fY/view?usp=sharing) |[Exercise](sql-05-nested) | |
 | --- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 
 ## Python

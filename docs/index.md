@@ -46,7 +46,7 @@ title: Foundations of Computer Science
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 9  | 22/11 |List comprehensions                     | [docs](https://docs.python.org/3/tutorial/datastructures.html) | |[Solution](https://github.com/gdv/foundationsCS/blob/master/py-09-Apache.ipynb) |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 10 | 29/11 |Version control                         | [docs](http://swcarpentry.github.io/git-novice/)|[Exercise](py-10-happiness) | |
+| 10 | 29/11 |Version control                         | [docs](http://swcarpentry.github.io/git-novice/)|[Exercise](py-10-happiness) |[Solution](https://github.com/gdv/foundationsCS/blob/master/py-10-happiness.ipynb) |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 11 |       |Assertions                              | | | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |

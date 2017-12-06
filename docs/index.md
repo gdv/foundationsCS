@@ -48,9 +48,9 @@ title: Foundations of Computer Science
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 10 | 29/11 |Version control                         | [docs](http://swcarpentry.github.io/git-novice/)|[Exercise](py-10-happiness) |[Solution](https://github.com/gdv/foundationsCS/blob/master/py-10-happiness.ipynb) |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 11 |       |Assertions                              | | | |
+| 11 |       |Assertions                              |[docs](http://swcarpentry.github.io/python-novice-inflammation/08-defensive/)|[Exercise](py-11-f1) |[Solution](https://github.com/gdv/foundationsCS/blob/master/py-11-f1.ipynb) |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 12 |       |Test and debugging                      | | | |
+| 12 |       |Debugging                               | | | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 13 |       |Accessing databases                     | | | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |

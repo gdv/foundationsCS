@@ -52,7 +52,7 @@ title: Foundations of Computer Science
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 12 | 11/12 |Debugging                               | |[Exercise](py-12-ted) |[Solution](https://github.com/gdv/foundationsCS/blob/master/py-12-TED.ipynb) |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 13 | 13/12 |Accessing databases                     |[docs](https://dev.mysql.com/doc/connector-python/en/connector-python-example-connecting.html) [docs](https://dev.mysql.com/doc/connector-python/en/connector-python-example-cursor-select.html) |[Exercise](py-13-employees) | [Solution]((https://github.com/gdv/foundationsCS/blob/master/py-13-employees.ipynb))|
+| 13 | 13/12 |Accessing databases                     |[docs](https://dev.mysql.com/doc/connector-python/en/connector-python-example-connecting.html) [docs](https://dev.mysql.com/doc/connector-python/en/connector-python-example-cursor-select.html) |[Exercise](py-13-employees) | [Solution](https://github.com/gdv/foundationsCS/blob/master/py-13-employees.ipynb)|
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 14 | 18/12 |Case study                              | | | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |

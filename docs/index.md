@@ -54,7 +54,7 @@ title: Foundations of Computer Science
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 | 13 | 13/12 |Accessing databases                     |[docs](https://dev.mysql.com/doc/connector-python/en/connector-python-example-connecting.html) [docs](https://dev.mysql.com/doc/connector-python/en/connector-python-example-cursor-select.html) |[Exercise](py-13-employees) | [Solution](https://github.com/gdv/foundationsCS/blob/master/py-13-employees.ipynb)|
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
-| 14 | 18/12 |Case study                              | | | |
+| 14 | 18/12 |Case study                              | |[Exercise](py-14-fifa) | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 
 

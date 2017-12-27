@@ -57,6 +57,9 @@ title: Foundations of Computer Science
 | 14 | 18/12 |Case study                              | |[Exercise](py-14-fifa) | |
 | -- | ----- | -------------------------------------- | ---------- | ------------- | --------- |
 
+## Final project
+
+[Project](2017-project)
 
 # License
 

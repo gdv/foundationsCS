@@ -37,4 +37,4 @@ Starting from the *The Movie DataBase* (TMDB) sample datasets,
 1.  It is better to use [GitHub](https://www.github.com) for developing the project. It is
     not mandatory, though.
 1.  The project *must* be a jupyter notebook. 
-1.  There is *no restriction* on the libraries that can be used.
+1.  There is *no restriction* on the libraries that can be used, nor on the Python version.

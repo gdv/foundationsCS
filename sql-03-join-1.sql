@@ -1,5 +1,3 @@
--- ## Using the *MyWind* database
-
 -- 1.  find all employees that have created at least a purchase
 
 select distinct employees.*
@@ -32,22 +30,16 @@ group by employees.id, last_name, first_name;
 
 select shippers.id, count(*)
 from shippers join orders on shippers.id=orders.shipper_id
-group by shippers.id
+group by shippers.id;
 
--- 5.  compute the orders of January 2006
+-- 5.  compute the orders shipped to the state of Nevada (NV)
 
 select *
 from orders
-where year(order_date) = 2006 and month(order_date) = 1
+where ship_state_province = 'NV';
 
--- 6.  computer the shippers of the orders of January 2006
-
-select distinct shippers.id
-from shippers join orders on shippers.id=orders.shipper_id
-where year(order_date) = 2006 and month(order_date) = 1
-
--- 7.  find all orders that do not have an invoice
+-- 6.  find all orders that do not have an invoice
 
 select orders.*
 from  orders left join invoices on invoices.order_id=orders.id
-where invoices.id is NULL
+where invoices.id is NULL;

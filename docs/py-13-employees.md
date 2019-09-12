@@ -1,4 +1,4 @@
-On the sample dataset *db_employees*:
+On the sample dataset [db_employees](https://github.com/gdv/foundationsCS-2018/blob/master/ex-data/db_employees.sqlite):
 
 1.  Compute the number of employees hired in each year
 1.  Find the manager who is currently spending more time managing the same department

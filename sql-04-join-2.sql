@@ -12,81 +12,53 @@ select employees.*
 from employees left join purchase_orders on created_by=employees.id
 where created_by is null;
 
---  Find the shippers that have handled an order in March 2006 or in May 2006 (using a set
---  operation)
+--  Find the shippers that have handled an order shipped to the state of NY or to state of CO
+--  (using a set operation)
 select shippers.*
 from shippers join orders on shippers.id=orders.shipper_id
-where year(order_date) = 2006 and month(order_date) = 3
+where ship_state_province = 'NY'
 
 union
 
 select shippers.*
 from shippers join orders on shippers.id=orders.shipper_id
-where year(order_date) = 2006 and month(order_date) = 5
+where ship_state_province = 'CO';
 
---  Find the shippers that have handled an order in March 2006 or in May 2006 (not using a
---  set operation)
-select shippers.*
+--  Find the shippers that have handled an order shipped to the state of NY or to state of CO
+--  (not using a set operation)
+select distinct shippers.*
 from shippers join orders on shippers.id=orders.shipper_id
-where year(order_date) = 2006 and
-      (month(order_date) = 3 or month(order_date) = 5)
+where ship_state_province = 'NY' or ship_state_province = 'CO';
 
---  Compute the total amount of the invoices of May 2006.
-select sum(amount)
-from invoices
-where year(order_date) = 2006 and month(order_date) = 5
+--  Compute the total number of items (*quantity*) to be shipped to the state of NY
+select sum(quantity)
+from order_details join orders on order_details.order_id=orders.id
+where ship_state_province = 'NY';
 
---  Compute the cities that have both a client and a supplier
+--  Compute the cities that have a customer and are the destination of a shipment
 select city
-from clients
+from customers
 
 intersect
 
-select city
-from suppliers
+select ship_city as city
+from orders;
 
 -- alternative solution without intersect
-select clients.city
-from clients, suppliers
-where clients.city = suppliers.city
+select distinct customers.city
+from customers, orders
+where customers.city = orders.ship_city;
 
---  Compute the cities that have a client or a supplier
+--  Compute the cities that have a customer or are the destination of a shipment
 select city
-from clients
+from customers
 
 union
 
-select city
-from suppliers
+select ship_city as city
+from orders;
 
 -- alternative solution without union
-select distinct clients.city
-from clients outer join suppliers on clients.city = suppliers.city
-
---  Compute the cities that have either a client or a supplier (such a city cannot have both).
-(
-        select city
-        from clients
-
-        intersect
-
-        select city
-        from suppliers
-)
-
-except
-
-(
-        select city
-        from clients
-
-        intersect
-
-        select city
-        from suppliers
-)
-
--- alternative solution without intersect
-select distinct clients.city
-from clients outer join suppliers on clients.city = suppliers.city
-where clients.city is null or suppliers.city is null
+-- does not work on sqlite, since it does not support full outer joins
+select distinct customers.city
+from customers outer join orders on customers.city = orders.ship_city;

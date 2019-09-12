@@ -1,40 +1,38 @@
--- On the customers table of the sample database MyWind compute
+-- On the customers table of the sample database NorthWind compute
 
 --     the contents of the table
 select *
-from customers;
+from product;
 
 --     the values of the ID field
-select id
-from customers;
+select Id
+from product;
 
---     the values of the last_name and first_name fields
-select last_name, first_name
-from customers;
+--     the values of the contactname and contacttitle fields of customer
+select contactname, contacttitle
+from customer;
 
---     the tuples with a non-NULL note
+--     the employees with a NULL note
 select *
-from customers
+from employee
 where notes is not null;
 
---     the customers with state_province that is one of UT, MN, and WI.
-select *
-from customers
-where state_province is 'UT' or
-      state_province is 'MN' or
-      state_province is 'WI';
+--     the total number of orders
 
---     the customers whose address starts with "456"
-select *
-from customers
-where address like '456%';
+select count(*)
+from "order";
 
---     the customers whose last_name is at least 4 characters long
-select *
-from customers
-where last_name like '____%';
+--     the number of orders for each customer
 
---     the customers with ID larger than 20
-select *
-from customers
-where id > 20;
+select customer_id, count(*)
+from "order"
+group by customerid;
+
+--     for each customer, the number of orders such that ShipVia is 2.
+
+select customer_id, count(*)
+from "order"
+group by customer_id
+where ShipVia 20;
+
+

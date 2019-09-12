@@ -1,4 +1,4 @@
-The sample dataset *apache* contains the files *access.log* and *error.log* that contains
+The sample dataset [Apache](https://github.com/gdv/foundationsCS-2018/blob/master/ex-data/apache/) contains the files *access.log* and *error.log* that contains
 the logfile of the accesses to a web server and the errors.
 The *access.log* is in [Common Log
 Format](https://en.wikipedia.org/wiki/Common_Log_Format).

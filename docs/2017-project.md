@@ -30,9 +30,7 @@ Starting from the *The Movie DataBase* (TMDB) sample datasets,
 1.  For each movie, compute the ratio between males and females in the cast
 2.  For each movie, compute the ratio between the attributed revenue of males and females
     in the cast
-3.  For each director, compute the average (among all movies he/she has directed) of the
-    ratio found in the previous point.
-3.  Find the director that has the highest average computed in the previous point.
+3.  Find the director that has the highest average ratio computed in the previous point.
 
 ### Notes
 

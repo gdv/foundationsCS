@@ -30,7 +30,7 @@ title: Foundations of Computer Science (2019-20)
 | -- | --- | ----- | --------- | ---------- | ------------- | --------- |
 | 11 | GDV | 23/10 | Parsing files. List manipulation: comprehension, zip           | [slides](https://github.com/gdv/foundationsCS/raw/master/slides/07-read_csv.pdf) [docs](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html)                                     | [Exercise](py-09-Apache)                                         | [Solution](https://nbviewer.jupyter.org/github/gdv/foundationsCS/blob/master/py-09-Apache.ipynb)             | 
 | -- | --- | ----- | --------- | ---------- | ------------- | --------- |
-| 12 | MP | 25/10 | ssh, ssh tunneling             | See [this video](https://www.youtube.com/watch?v=JKrO5WABdoY) for a quick introduction to ssh.                                       | 
+| 12 | MP | 25/10 | Advanced shell          |                                        |
 | -- | --- | ----- | --------- | ---------- | ------------- | --------- |
 | 13 | GDV | 29/10 | Exercise on list comprehensions              | [docs](https://docs.python.org/3/tutorial/datastructures.html)                                                  | [Exercise](py-11-f1)                                          | [Solution](https://nbviewer.jupyter.org/github/gdv/foundationsCS/blob/master/py-11-f1.ipynb)              | 
 | -- | --- | ----- | --------- | ---------- | ------------- | --------- |

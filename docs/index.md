@@ -10,13 +10,13 @@ title: Foundations of Computer Science (2019-20)
 | -- | --- | ----- | --------- | ---------- | ------------- | --------- |
 | 1 | GDV | 1/10 | Introduction to the Jupyter Notebook, Array, lists, loops, dictionaries         | [Notebook 1](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html) [Notebook 2](https://github.com/gdv/EngComp/blob/master/modules/1_offtheground/1_Interacting_with_Python.ipynb) [Notebook python basics](https://nbviewer.jupyter.org/github/gdv/foundationsCS/blob/master/py-01-basics.ipynb) [Notebook introduction](https://nbviewer.jupyter.org/github/gdv/foundationsCS/blob/master/py-02-intro-notebook.ipynb) | [Exercise](https://github.com/gdv/foundationsCS/blob/master/ex-01-DictFilesFunc.ipynb), [PromessiSposi.txt](https://github.com/gdv/foundationsCS/blob/master/ex-data/PromessiSposi.txt)  |         [Solution Part 1](https://github.com/gdv/foundationsCS/blob/master/ex-01-DictFilesFunc-solution-full.ipynb)                   | 
 | -- | --- | ----- | --------- | ---------- | ------------- | --------- |
-| 2 | GDV | 2/10 | Separator-based files. Relational model DBMS. Schemas and instances. Exploring a DB. Constraints, Keys, Indices. Null values. Linux shell. | [slides](https://oc.dellavedova.org/s/ynBSzHRKBXtj29a) [slides](https://drive.google.com/file/d/1aei9sQry7p9UAoxP1TY9xPkkwocPbvqP/view?usp=sharing)                                       | [slides](http://elearning.unimib.it/mod/resource/view.php?id=187159) [slides](http://elearning.unimib.it/mod/resource/view.php?id=187161) [slides null values](https://drive.google.com/file/d/1oPar1TsmqYps8V5nPZSMo0mca6mt5Dur/view?usp=sharing)              |                      
+| 2 | GDV | 2/10 | Separator-based files. Relational model DBMS. Schemas and instances. Exploring a DB. Constraints, Keys, Indices. Null values. | [slides](https://github.com/gdv/introduction_to_relational_databases/raw/master/01-intro.pdf) [planets.csv](https://raw.githubusercontent.com/mwaskom/seaborn-data/master/planets.csv) |  |
 | -- | --- | ----- | --------- | ---------- | ------------- | --------- |
 | 3 | MP | 4/10 |  Basic shell usage, Version control | See "Linux shell commands" at the end of this page and [version control](http://swcarpentry.github.io/git-novice/) for version control. | 
 | -- | --- | ----- | --------- | ---------- | ------------- | --------- |
 | 4 | GDV | 8/10 | Reading files, functions, and libraries. Pandas: introduction and indexing.              | [Notebook](https://jakevdp.github.io/PythonDataScienceHandbook/03.01-introducing-pandas-objects.html) [Notebook](https://jakevdp.github.io/PythonDataScienceHandbook/03.02-data-indexing-and-selection.html)                                | [Exercise](py-04-pandas)                                         | [Solution](https://nbviewer.jupyter.org/github/gdv/foundationsCS/blob/master/py-04-pandas.ipynb)             | 
 | -- | --- | ----- | --------- | ---------- | ------------- | --------- |
-| 5 | GDV | 9/10 | Select..From..Where on 1 table. Aggregate operators           | [slides](https://github.com/gdv/introduction_to_relational_databases/raw/master/02-sql-single-table.pdf)                                             | [Northwind 1](sql-01-sfw)                                         | [Solution](https://github.com/gdv/foundationsCS/blob/master/sql-01-sfw.sql)                | 
+| 5 | GDV | 9/10 | Select..From..Where on 1 table. Aggregate operators           | [slides](https://github.com/gdv/introduction_to_relational_databases/raw/master/02-sql-single-table.pdf) | [Northwind 1](sql-01-sfw)                                         | [Solution](https://github.com/gdv/foundationsCS/blob/master/sql-01-sfw.sql)                | 
 | -- | --- | ----- | --------- | ---------- | ------------- | --------- |
 | 6 | MP | 11/10 | Queries on 1 table                | [NorthWind](https://github.com/gdv/foundationsCS/raw/master/ex-data/Northwind.fix.sqlite) | [Northwind 2](sql-02-sfw-group-by)  | [Solution](https://github.com/gdv/foundationsCS/blob/master/sql-02-groupby.sql)               | 
 | -- | --- | ----- | --------- | ---------- | ------------- | --------- |
@@ -49,6 +49,18 @@ title: Foundations of Computer Science (2019-20)
 ## Azure Notebooks
 
 [Azure notebooks of the course](https://notebooks.azure.com/gianluca-dellavedova/projects/foundationsCS-2019)
+
+## Install software
+
+You will need to use the command line.
+
+
+1.  Install [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html). Install the Python 3 version.
+1.  `git clone https://github.com/gdv/foundationsCS.git`
+1.  `cd foundationsCS`
+1.  `conda env create -f FoCS.yml`
+1.  `conda activate FoCS`
+
 
 ## Linux shell commands
 

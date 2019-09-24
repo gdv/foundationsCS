@@ -50,18 +50,6 @@ title: Foundations of Computer Science (2019-20)
 
 [Azure notebooks of the course](https://notebooks.azure.com/gianluca-dellavedova/projects/foundationsCS-2019)
 
-## Install software
-
-You will need to use the command line.
-
-
-1.  Install [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html). Install the Python 3 version.
-1.  `git clone https://github.com/gdv/foundationsCS.git`
-1.  `cd foundationsCS`
-1.  `conda env create -f FoCS.yml`
-1.  `conda activate FoCS`
-
-
 ## Linux shell commands
 
 * [ls, cd, pwd](https://asciinema.org/a/197295)

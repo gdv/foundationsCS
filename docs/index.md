@@ -66,13 +66,14 @@ You will need to use the command line.
 
 ## Linux shell commands
 
-* [ls, cd, pwd](https://asciinema.org/a/197295)
-* [mv cp nano touch rsync](https://asciinema.org/a/197355)
-* [redirection pipe cut wc sort head tail](https://asciinema.org/a/197358)
-* [for history echo](https://asciinema.org/a/197360)
-* [bash programs, script, filenames with spaces](https://asciinema.org/a/197363)
-* [grep, find](https://asciinema.org/a/197364)
-* [fg, bg, ctrl+c, ctrl+z, ps, kill, chmod](https://asciinema.org/a/197590)
+* [man](http://man7.org/linux/man-pages/man1/man.1.html)
+* [ls](http://man7.org/linux/man-pages/man1/ls.1.html), [cd](http://man7.org/linux/man-pages/man1/cd.1p.html), [pwd](http://man7.org/linux/man-pages/man1/pwd.1.html) ([video](https://asciinema.org/a/197295))
+* [mv](http://man7.org/linux/man-pages/man1/mv.1.html), [cp](http://man7.org/linux/man-pages/man1/cp.1.html), [nano](https://linux.die.net/man/1/nano), [touch](http://man7.org/linux/man-pages/man1/touch.1.html), [rsync](http://man7.org/linux/man-pages/man1/rsync.1.html) ([video](https://asciinema.org/a/197355))
+* [redirection](https://www.gnu.org/software/bash/manual/html_node/Redirections.html), [pipe](https://www.gnu.org/software/bash/manual/html_node/Pipelines.html#Pipelines), [cut](http://man7.org/linux/man-pages/man1/cut.1.html), [wc](http://man7.org/linux/man-pages/man1/wc.1.html), [sort](http://man7.org/linux/man-pages/man1/sort.1.html), [head](http://man7.org/linux/man-pages/man1/head.1.html), [tail](http://man7.org/linux/man-pages/man1/tail.1.html) ([video](https://asciinema.org/a/197358))
+* [for](http://linuxcommand.org/lc3_man_pages/forh.html), [history](http://man7.org/linux/man-pages/man3/history.3.html), [echo](http://man7.org/linux/man-pages/man1/echo.1.html) ([video](https://asciinema.org/a/197360))
+* [bash](http://man7.org/linux/man-pages/man1/bash.1.html), programs, script, filenames with spaces ([video](https://asciinema.org/a/197363))
+* [grep](http://man7.org/linux/man-pages/man1/grep.1.html), [find](http://man7.org/linux/man-pages/man1/find.1.html) ([video](https://asciinema.org/a/197364))
+* [fg](http://man7.org/linux/man-pages/man1/fg.1p.html), [bg](http://man7.org/linux/man-pages/man1/bg.1p.html), ctrl+c, ctrl+z, [ps](http://man7.org/linux/man-pages/man1/ps.1.html), [kill](http://man7.org/linux/man-pages/man1/kill.1.html), [chmod](http://man7.org/linux/man-pages/man1/chmod.1.html) ([video](https://asciinema.org/a/197590))
 
 # License
 

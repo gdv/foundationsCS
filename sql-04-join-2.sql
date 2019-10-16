@@ -57,8 +57,3 @@ union
 
 select ship_city as city
 from orders;
-
--- alternative solution without union
--- does not work on sqlite, since it does not support full outer joins
-select distinct customers.city
-from customers outer join orders on customers.city = orders.ship_city;

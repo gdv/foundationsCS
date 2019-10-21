@@ -36,6 +36,10 @@ title: Foundations of Computer Science (2019-20)
 
 [Azure notebooks of the course](https://notebooks.azure.com/gianluca-dellavedova/projects/foundationsCS-2019)
 
+## Webex recording
+
+The [recorded sessions](https://drive.google.com/open?id=14my7kiEKqBwuUhoFg0eGtwYI8F37FG2y).
+
 ## Install software
 
 You will need to use the command line.

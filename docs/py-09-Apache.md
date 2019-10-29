@@ -5,9 +5,9 @@ Format](https://en.wikipedia.org/wiki/Common_Log_Format).
 The entries in *error.log* usually have a corresponding entry in *access.log*
 
 1.  Read the file *access.log*
-1.  Count the number of accesses (number of lines) made by an IP number
+1.  Count the number of accesses (number of lines) made by an IP number (an IP consist of four numbers separated by a dot)
 1.  Count the number of successful accesses (status 200) made by an IP number
-1.  Count the number of accesses for each directory served
+1.  Count the number of accesses for each directory served (the url consists of a directory and a file name)
 1.  For each origin, count the number of successful accesses
 1.  For each origin, count the number of unsuccessful accesses, split according to the
     status code

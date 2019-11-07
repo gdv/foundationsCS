@@ -28,6 +28,9 @@ title: Foundations of Computer Science (2019-20)
 
 ## Final project
 
+* [Project 2019](2019-project)
+
+### Old projecs
 * [Project 2018](2018-project)
 * [Project 2017](2017-project)
 

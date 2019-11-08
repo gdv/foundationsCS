@@ -11,7 +11,7 @@ Some information on the datasets are on the [Kaggle](https://www.kaggle.com/gabo
 1.  For each country, compute how many loans have involved that country as borrowers.
 1.  For each country, compute the overall amount of money borrowed.
 1.  Like the previous point, but expressed as a percentage of the overall amount lent.
-1.  Like the three previous points, but split for each year.
+1.  Like the three previous points, but split for each year (with respect to `disburse time`).
 1.  For each lender, compute the overall amount of money lent.
 1.  For each country, compute the difference between the overall amount of money lent and the overall amount of money
     borrowed.

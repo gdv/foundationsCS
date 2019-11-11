@@ -7,7 +7,7 @@ Some information on the datasets are on the [Kaggle](https://www.kaggle.com/gabo
 1.  Normalize the `loan_lenders` table. In the normalized table, each row must have one `loan_id` and one `lender`.
 1.  For each loan, add a column `duration` corresponding to the number of days between the disburse time and the planned
     expiration time.
-1.  Find the borrowers that have funded at least twice.
+1.  Find the lenders that have funded at least twice.
 1.  For each country, compute how many loans have involved that country as borrowers.
 1.  For each country, compute the overall amount of money borrowed.
 1.  Like the previous point, but expressed as a percentage of the overall amount lent.

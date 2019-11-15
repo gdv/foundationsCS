@@ -14,7 +14,8 @@ Some information on the datasets are on the [Kaggle](https://www.kaggle.com/gabo
 1.  Like the three previous points, but split for each year (with respect to `disburse time`).
 1.  For each lender, compute the overall amount of money lent.
 1.  For each country, compute the difference between the overall amount of money lent and the overall amount of money
-    borrowed.
+    borrowed. Since the country of the lender is often unknown, you can assume that the true distribution among the
+    countries is the same as the one computed from the rows where the country is known.
 1.  Which country has the highest ratio between the difference computed at the previous point and the population?
 1.  Which country has the highest ratio between the difference computed at  point 9 and the population that is
     not below the poverty line?

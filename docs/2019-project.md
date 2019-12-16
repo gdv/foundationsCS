@@ -12,8 +12,8 @@ Some information on the datasets are on the [Kaggle](https://www.kaggle.com/gabo
 1.  For each country, compute the overall amount of money borrowed.
 1.  Like the previous point, but expressed as a percentage of the overall amount lent.
 1.  Like the three previous points, but split for each year (with respect to `disburse time`).
-1.  For each lender, compute the overall amount of money lent. For each loan that has more than one lender, you can
-    impute the entire amount to each lender.
+1.  For each lender, compute the overall amount of money lent.  For each loan that has more than one lender, you must
+    assume that all lenders contributed the same amount.
 1.  For each country, compute the difference between the overall amount of money lent and the overall amount of money
     borrowed. Since the country of the lender is often unknown, you can assume that the true distribution among the
     countries is the same as the one computed from the rows where the country is known.
@@ -39,8 +39,6 @@ Some information on the datasets are on the [Kaggle](https://www.kaggle.com/gabo
 
 1.  Find the country with the highest rate of irregular repayment interval.
 1.  Find the country with the highest fraction of loaned amount with irregular repayment interval.
-1.  For each lender, estimate the total amount of money lent. For each loan that has more than one lender, you must
-    assume that all lenders contributed the same amount.
 
 ### Notes
 

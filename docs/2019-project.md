@@ -33,7 +33,7 @@ Some information on the datasets are on the [Kaggle](https://www.kaggle.com/gabo
 1.  What is the occupation with the highest average amount of money lent (the average must be computed over all lenders
     with a given occupation)?
 1.  Cluster the loans according to the year-month of disburse time.
-1.  For each country, compute its overall GDP, by multiplying the per capita GDP with its population.
+1.  For each country, compute its overall GNI, by multiplying the per capita GNI with its population.
 
 #### The following part of the exercise must be done only by groups with three people
 

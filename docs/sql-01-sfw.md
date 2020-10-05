@@ -1,4 +1,4 @@
-On the customers table of the sample database [NorthWind](https://github.com/gdv/foundationsCS-2018/raw/master/ex-data/Northwind.fix.sqlite) compute:
+On the customers table of the sample database [NorthWind](https://github.com/gdv/foundationsCS-2018/raw/master/ex-data/Northwind.large.sqlite) compute:
 
 1.  the contents of the table product
 1.  the values of the ID (primary key) of products
@@ -11,4 +11,7 @@ On the customers table of the sample database [NorthWind](https://github.com/gdv
 
 
 
-The [schema](https://github.com/gdv/foundationsCS-2018/raw/master/ex-data/Northwind_ERD.png) and the [code](https://github.com/gdv/foundationsCS-2018/raw/master/ex-data/Northwind.Sqlite3.create.sql) to create the DB.
+The [schema](https://github.com/gdv/foundationsCS-2018/raw/master/ex-data/Northwind_ERD.png).
+
+Notice that there are some small differences between the figure and the
+actual names of some columns.

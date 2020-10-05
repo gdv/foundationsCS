@@ -12,6 +12,8 @@ On the customers table of the sample database [NorthWind](https://github.com/gdv
 
 
 The [schema](https://github.com/gdv/foundationsCS-2018/raw/master/ex-data/Northwind_ERD.png).
+The Northwind database is available also for several DBMS other than
+Sqlite.
 
 Notice that there are some small differences between the figure and the
 actual names of some columns.

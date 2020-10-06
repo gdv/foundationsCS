@@ -2,37 +2,44 @@
 
 --     the contents of the table
 select *
-from product;
+from products;
 
 --     the values of the ID field
 select Id
-from product;
+from products;
 
 --     the values of the contactname and contacttitle fields of customer
 select contactname, contacttitle
-from customer;
+from customers;
 
 --     the employees with a NULL note
 select *
-from employee
-where notes is not null;
+from employees
+where ReportsTo is null;
 
 --     the total number of orders
 
 select count(*)
-from "order";
+from "orders";
 
 --     the number of orders for each customer
 
-select customer_id, count(*)
-from "order"
+select id, count(*)
+from "orders"
 group by customerid;
 
 --     for each customer, the number of orders such that ShipVia is 2.
 
-select customer_id, count(*)
-from "order"
-group by customer_id
-where ShipVia 20;
+select CustomerId, count(*) as howmany
+from Orders
+where shipvia = 2
+group by customerid;
+
+
+-- the customers that are in Mexico and do not have a fax.
+
+select *
+from customers
+where country = 'Mexico' and fax is null;
 
 

@@ -24,7 +24,7 @@ from "orders";
 
 --     the number of orders for each customer
 
-select id, count(*)
+select customerid, count(*)
 from "orders"
 group by customerid;
 

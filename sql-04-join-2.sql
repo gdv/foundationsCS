@@ -12,28 +12,28 @@ select employees.*
 from employees left join purchase_orders on created_by=employees.id
 where created_by is null;
 
---  Find the shippers that have handled an order shipped to the state of NY or to state of CO
---  (using a set operation)
-select shippers.*
-from shippers join orders on shippers.id=orders.shipper_id
-where ship_state_province = 'NY'
+--  Find the orders placed by a custormer in Austria or in Venezuela (using a set operation)
+select Orders.*
+from customers join orders on customers.id=orders.CustomerId
+where Country = 'Austria'
 
 union
 
-select shippers.*
-from shippers join orders on shippers.id=orders.shipper_id
-where ship_state_province = 'CO';
+select Orders.*
+from customers join orders on customers.id=orders.CustomerId
+where Country = 'Venezuela';
 
---  Find the shippers that have handled an order shipped to the state of NY or to state of CO
---  (not using a set operation)
-select distinct shippers.*
-from shippers join orders on shippers.id=orders.shipper_id
-where ship_state_province = 'NY' or ship_state_province = 'CO';
 
---  Compute the total number of items (*quantity*) to be shipped to the state of NY
+--  Find the orders placed by a custormer in Austria or in Venezuela (not using a set operation)
+
+select Orders.*
+from customers join orders on customers.id=orders.CustomerId
+where Country = 'Austria' or Country = 'Venezuela';
+
+--  Compute the total number of items (*quantity*) to be shipped to Italy.
 select sum(quantity)
-from order_details join orders on order_details.order_id=orders.id
-where ship_state_province = 'NY';
+from orderdetails join orders on orderdetails.orderid=orders.id
+where ShipCountry = 'Italy';
 
 --  Compute the cities that have a customer and are the destination of a shipment
 select city
@@ -41,13 +41,13 @@ from customers
 
 intersect
 
-select ship_city as city
+select shipcity as city
 from orders;
 
 -- alternative solution without intersect
 select distinct customers.city
 from customers, orders
-where customers.city = orders.ship_city;
+where customers.city = orders.shipcity;
 
 --  Compute the cities that have a customer or are the destination of a shipment
 select city
@@ -55,5 +55,17 @@ from customers
 
 union
 
-select ship_city as city
+select shipcity as city
 from orders;
+
+-- Compute the cities that are the destination of a shipment but have no customer.
+
+
+select shipcity as city
+from orders
+
+EXCEPT
+
+select city
+from customers;
+

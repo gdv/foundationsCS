@@ -18,7 +18,8 @@ group by employees.id, lastname, firstname
 having count(*) > 1;
 
 
--- 3.  for each employee, compute the overall shipping fees of the order that such employee
+-- 3.  for each employee, compute the overall shipping fees of the
+-- orders that such employee
 --     has created.
 
 select employees.id, lastname, firstname, sum(shipping_fee) as total_shipping_fee
@@ -28,8 +29,8 @@ group by employees.id, lastname, firstname;
 
 -- 4.  for each shipper, compute the number of orders handled
 
-select shippers.id, count(*)
-from shippers join orders on shippers.id=orders.ShipVia
+select shippers.id, count(ShipVia)
+from shippers left join orders on shippers.id=orders.ShipVia
 group by shippers.id;
 
 -- 5.  compute the orders shipped to the region "Western Europe"

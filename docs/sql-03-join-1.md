@@ -4,7 +4,7 @@ On the *NorthWind* database:
 
 1.  find all employees that have created at least a purchase
 2.  find all employees that have created at least 2 purchases
-3.  for each employee, compute the overall shipping fees of the order that such employee
+3.  for each employee, compute the overall shipping fees of the orders that such employee
     has created.
 4.  for each shipper, compute the number of orders handled
 5.  compute the orders shipped to the region "Western Europe"

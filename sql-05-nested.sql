@@ -2,13 +2,13 @@
 
 select *
 from products
-where list_price IN (select max(list_price)
+where unitprice IN (select max(UnitPrice)
                     from products);
 
 --  Find the employees that have managed at least an order, but have created no purchase order
 
-select distinct E.id
-from employees E join orders on E.id=orders.employee_id
+select distinct E.id, E.LastName, E.FirstName
+from employees E join orders on E.id=orders.employeeid
 where not exists (select *
                   from purchase_orders
                   where E.id = purchase_orders.created_by);
@@ -16,8 +16,8 @@ where not exists (select *
 
 --  Find the states that have at least a customer, but no supplier
 
-select distinct state_province
+select distinct Country
 from customers C
 where not exists (select *
                   from suppliers S
-                  where C.state_province = S.state_province);
+                  where C.Country = S.Country);

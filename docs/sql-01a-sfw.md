@@ -9,6 +9,9 @@ On the customers table of the sample database [NorthWind](https://github.com/gdv
 1.    The customers IDs that have placed at least 150 orders.
 1.    For each order, the total amount of products (quantities) sold.
 1.    For each order, the total amount of products (quantities) sold and the average discount offered if non-zero. The result must be one table.
+1. For each order, the total price (in units).
+1. For each product, the total amount of units sold.
+1. For each product, the average units sold per order.
 
 
 

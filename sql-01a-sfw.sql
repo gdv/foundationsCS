@@ -6,3 +6,6 @@
 6. SELECT CustomerId, count(*) FROM Orders GROUP BY CustomerId HAVING count(*) > 150;
 7. SELECT OrderId, sum(Quantity) FROM OrderDetails GROUP BY OrderId;
 8. SELECT OrderId, sum(Quantity), avg(Discount) FROM OrderDetails GROUP BY OrderId HAVING avg(Discount) > 0;
+9. 
+10. SELECT ProductId, sum(Quantity) FROM OrderDetails GROUP BY ProductId;
+11. SELECT OrderId, ProductId, avg(UnitPrice) FROM OrderDetails GROUP BY OrderId,ProductId

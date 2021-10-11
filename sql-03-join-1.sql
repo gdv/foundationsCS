@@ -19,8 +19,7 @@ having count(*) > 1;
 
 
 -- 3.  for each employee, compute the overall shipping fees of the
--- orders that such employee
---     has created.
+-- purchase orders that such employee has created.
 
 select employees.id, lastname, firstname, sum(shipping_fee) as total_shipping_fee
 from employees join purchase_orders on created_by=employees.id

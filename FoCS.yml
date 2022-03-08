@@ -1,9 +1,9 @@
 name: FoCS
 channels:
-  - defaults
   - conda-forge
 dependencies:
   - notebook
   - sqlite
   - pandas
+  - jupyterlab
 

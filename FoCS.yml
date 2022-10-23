@@ -6,4 +6,4 @@ dependencies:
   - sqlite
   - pandas
   - jupyterlab
-
+  - sqlalchemy

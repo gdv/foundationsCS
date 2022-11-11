@@ -1,9 +1,0 @@
-name: FoCS
-channels:
-  - conda-forge
-dependencies:
-  - notebook
-  - sqlite
-  - pandas
-  - jupyterlab
-  - sqlalchemy

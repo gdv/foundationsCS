@@ -7,3 +7,7 @@ dependencies:
   - pandas
   - jupyterlab
   - sqlalchemy
+  - pyarrow
+  - jupyterlab
+  - fastparquet
+  - biopython

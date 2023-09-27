@@ -104,3 +104,4 @@ ENV/
 database/
 /database
 .sass-cache
+*.bak

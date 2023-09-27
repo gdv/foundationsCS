@@ -1,4 +1,4 @@
-On the customers table of the sample database [NorthWind](https://github.com/gdv/foundationsCS/raw/master/students/ex-data/Northwind/Northwind_large.sqlite) compute:
+On the customers table of the sample database [NorthWind](https://github.com/gdv/foundationsCS/raw/main/students/ex-data/Northwind/Northwind_large.sqlite) compute:
 
 
 1.    The customers whose country is Italy, France or Austria.
@@ -15,7 +15,7 @@ On the customers table of the sample database [NorthWind](https://github.com/gdv
 
 
 
-The [schema](https://github.com/gdv/foundationsCS/raw/master/students/ex-data/Northwind_ERD.png).
+The [schema](https://github.com/gdv/foundationsCS/raw/main/students/ex-data/Northwind_ERD.png).
 The Northwind database is available also for several DBMS other than
 Sqlite.
 

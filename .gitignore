@@ -107,3 +107,7 @@ database/
 *.bak
 teachers/Student version.ipynb
 progetti/Student version.ipynb
+
+# pixi environments
+.pixi
+*.egg-info

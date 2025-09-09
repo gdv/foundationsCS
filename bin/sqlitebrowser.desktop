@@ -1,10 +1,8 @@
 [Desktop Entry]
-Version=44.10.1.31028
-Name=Webex
-Comment=Webex
-Exec=/opt/Webex/bin/CiscoCollabHost %U
-Icon=/home/gianluca/.local/share/WebexLauncher/sparklogosmall.png
+Version=3.13.1
+Name=Sqlite Browser
+Comment=Sqlite Browser
+Exec=~/.local/bin/sqlitebrowser %U
 Terminal=false
 Type=Application
 Categories=Utility;Application;
-MimeType=x-scheme-handler/webexteams;x-scheme-handler/ciscospark;x-scheme-handler/webex

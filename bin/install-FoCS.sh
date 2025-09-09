@@ -10,3 +10,6 @@ chmod 755 ~/.local/bin/sqlitebrowser
 # Add the desktop file
 test -e ~/.local/share/applications || mkdir -p ~/.local/share/applications
 curl -sSLo ~/.local/share/applications/sqlitebrowser.desktop https://github.com/gdv/foundationsCS/raw/refs/heads/main/bin/sqlitebrowser.desktop
+
+# Add to the path
+env | grep PATH | grep local/bin || echo 'export PATH="~/.local/bin:$PATH"' >>~/.bashrc

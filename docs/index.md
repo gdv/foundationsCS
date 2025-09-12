@@ -5,7 +5,7 @@ title: Foundations of Computer Science
 
 ## How to prepare the LibAAS machine
 
-*  Open the terminal ![Open terminal](../terminal.png)
+*  Open the terminal ![Open terminal](terminal.png)
 *  Write the following command 
 
 ```

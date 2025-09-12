@@ -5,10 +5,15 @@ title: Foundations of Computer Science
 
 ## How to prepare the LibAAS machine
 
-1.  Open the terminal
-2.  Write the following command `curl -fsSL https://gdv.github.io/foundationsCS/bin/install-FoCS.sh | sh`
-3.  Close and reopen the terminal
-4.  Write the following command
+*  Open the terminal ![Open terminal](../terminal.png)
+*  Write the following command 
+
+```
+curl -fsSL https://gdv.github.io/foundationsCS/bin/install-FoCS.sh | sh
+```
+
+*  Close and reopen the terminal
+*  Write the following command
 
 ```
 pixi global install notebook pandas sqlite pandas jupyterlab sqlalchemy pyarrow fastparquet

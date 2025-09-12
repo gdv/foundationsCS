@@ -1,7 +1,5 @@
 #!/usr/bin/bash
 
-curl -fsSL https://pixi.sh/install.sh | sh
-
 #DB Browser
 test -e ~/.local/bin || mkdir -p ~/.local/bin
 curl -sSLo ~/.local/bin/sqlitebrowser https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-x86.64-v2.AppImage
@@ -13,3 +11,11 @@ curl -sSLo ~/.local/share/applications/sqlitebrowser.desktop https://github.com/
 
 # Add to the path
 which sqlitebrowser || echo 'export PATH="~/.local/bin:$PATH"' >>~/.bashrc
+
+# Pixi
+#
+#First download the environment
+curl -fsSL https://github.com/gdv/foundationsCS/raw/refs/heads/main/pixi.toml -o pixi.toml
+
+# Install pixi
+curl -fsSL https://pixi.sh/install.sh | sh

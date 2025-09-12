@@ -7,11 +7,9 @@ title: Foundations of Computer Science
 
 1.  Open the terminal
 2.  Write the following command
-
-```
+`
 curl -fsSL https://gdv.github.io/foundationsCS/bin/install-FoCS.sh | sh
-```
-
+`
 3.  Close and reopen the terminal
 4.  Write the following command
 
